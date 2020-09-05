@@ -5,7 +5,7 @@ date: '2020-08-28'
 draft: false
 slug: '/publications/spring-data-transaction'
 img: 'spring'
-isDocumentExist: false
+isDocumentExist: true
 tags:
   - java
   - spring
@@ -213,7 +213,7 @@ There is where developer writes custom code to manage the transaction and set bo
 
 #### > When to use declarative transaction management over programmatic trx management and vice versa ?
 
-It depends on your needs, personally i'm using the annotation config and i handle my transactions the declarative way in 90% of cases, however when sometimes you need more control to your transaction, you need to decide when exactly commit your changes or whatever, spring provide you support for this too, so you can be more flexible with your transaction, what you should know is in that case you'll have to couple trans. technical code and your business logic; this make things harder to maintain
+It depends on your needs, personally i'm usually using the annotation config for handling my transactions the declarative way in 90% of cases, however when sometimes you need more control to your transaction, i mean you want to decide when exactly commit your changes or whatever, then spring provide you support for programmatic management as well, so you can be more flexible with your transaction, what you should know is in that case you'll have to couple trans. technical code and your business logic and this make things harder for you to maintain.
 
 ---
 

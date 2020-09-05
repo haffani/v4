@@ -7,13 +7,15 @@ range: 'September 2018 - Present'
 url: 'https://www.hps-worldwide.com/'
 ---
 
-- Developed functional skills on the three main sections of the acquiring product:<br/>
-  -> Merchant, settlement, acceptor points, mandates, equipment/acceptance contracts management.<br/>
-  -> Transactions & remittances.<br/>
-  -> Cases, events and litigation.
-- Worked on the enhancement of PowerCARD\* solution by implementing MasterCom API, other standards (PL/SQL Oracle), settlement fees, chargebacks, billable elements using JAVA specific REST services (server-side), SpringBatch and Docker unix machine to launch the jobs and exploring traces.
-- Proposed and implemented scalable technical solutions to issues such as build long time,
-  common modules, git hooks to enforce same prettier & commit messages rules.
-- Worked mainly with acquiring product team of developers, testers and business analysts
-  on migration of acquirer module from Flex to Angular on UI level & from PL/SQL to Spring
-  Batch on jobs level, but also contributed occasionally on implementing HPS's client specifications.
+- Developed WebServices in Java.
+- Develop Jobs - SpringBatch.
+- Ensured Angular screens development of the PowerCARD software package following to the standards of version 3.5.
+- Fixes bugs and anomalies. (unix Docker machine to launch the jobs and explore the traces).
+- Written unit tests.
+- Synchronized repositories.
+- Designed shared components.
+- Proposal and implementation of scalable technical solutions to issues such as long-time builds, common modules, git hooks to apply the same indentation and linting rules to the project.
+- Worked mainly with acquiring product team of developers, testers and business analysts on the migration of the acquirer module:
+  - from Flex to Angular at the HMI interface level.
+  - from PL / SQL to Spring batch at job level. (Java 8)
+- Contributed occasionally to the implementation of specifications for HPS clients.
