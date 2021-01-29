@@ -33,7 +33,7 @@ const StyledContainer = styled.footer`
 
 const StyledLogo = styled.div`
   img {
-    width: 16%;
+    width: 250px;
     &:hover,
     &:focus {
       svg {
@@ -99,7 +99,7 @@ const Footer = () => (
       <br />
       <br />
 
-      <StyledPostName>Hamza AFFANI 2021 | Software Engineer | PCIP</StyledPostName>
+      <StyledPostName>Hamza AFFANI 2021 | Software Engineer | PCIP™</StyledPostName>
       <br />
       <StyledGitHubLink
         href="https://github.com/haffani/v4"
