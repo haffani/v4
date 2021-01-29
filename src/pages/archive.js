@@ -1,4 +1,4 @@
-import React, { useRef, useEffect } from 'react';
+/*import React, { useRef, useEffect } from 'react';
 import { graphql } from 'gatsby';
 import { Helmet } from 'react-helmet';
 import PropTypes from 'prop-types';
@@ -245,3 +245,4 @@ export const pageQuery = graphql`
     }
   }
 `;
+*/
