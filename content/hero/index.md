@@ -6,4 +6,5 @@ contactText: 'Get In Touch'
 ---
 
 I'm a software engineer specialized in building secure and high-quality payment systems and applications.
+<br/>
 I'm certified Payment Card Industry Professional (PCIP)™.
