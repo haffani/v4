@@ -8,7 +8,7 @@ module.exports = {
   siteLanguage: 'en_US',
   name: 'AFFANI Hamza',
   location: 'Casablanca, Morocco',
-  email: 'elaffani95@gmail.com',
+  email: 'haffani.pcip@gmail.com',
   github: 'https://github.com/haffani',
   twitterHandle: '@haffani95',
   socialMedia: [
