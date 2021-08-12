@@ -30,4 +30,4 @@ so that people won't infect each other.
 
 ## The post
 
-Here i explain how are the measures taken by Docker and governments are similar to contain diseases
+Here I explain how are the measures taken by Docker and governments are similar to contain diseases
