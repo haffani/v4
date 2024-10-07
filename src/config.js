@@ -1,13 +1,13 @@
 module.exports = {
   siteTitle: 'Hamza AFFANI | Software Engineer',
   siteDescription:
-    'Hamza AFFANI is a software engineer & PCI Professional based in Casablanca, who specializes in developing secure and high-quality payment systems.',
+    'Hamza AFFANI is a software engineer & PCI Professional based in Paris, who specializes in developing secure and high-quality payment systems.',
   siteKeywords:
     'Hamza AFFANI, Hamza, Affani, haffani, software engineer, front-end engineer, Java developer, javascript, elaffani',
   siteUrl: 'https://haffani.netlify.com/',
   siteLanguage: 'en_US',
-  name: 'AFFANI Hamza',
-  location: 'Casablanca, Morocco',
+  name: 'EL AFFANI HAMZA',
+  location: 'Paris, France',
   email: 'haffani.pcip@gmail.com',
   github: 'https://github.com/haffani',
   twitterHandle: '@haffani95',
@@ -43,6 +43,10 @@ module.exports = {
       name: 'Work',
       url: '/#projects',
     },
+  /*  {
+      name: 'Certifications',
+      url: '/#certifications',
+    },*/
     {
       name: 'Posts',
       url: '/#posts',

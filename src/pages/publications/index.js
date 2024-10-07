@@ -8,6 +8,23 @@ import { IconZap } from '@components/icons';
 import styled from 'styled-components';
 import { theme, mixins, media, Main } from '@styles';
 const { colors, fontSizes, fonts } = theme;
+import bazel from '../../images/bazel.png'
+import emv from '../../images/emv.png';
+import docker from '../../images/docker.png';
+import graphql1 from '../../images/graphql1.png';
+import rou7 from '../../images/rou7.png';
+import spring from '../../images/spring.png';
+import observable from '../../images/observable.png';
+
+const images = {
+  bazel,
+  emv,
+  docker,
+  spring,
+  rou7,
+  graphql1,
+  observable
+};
 
 const StyledMainContainer = styled(Main)`
   & > header {
@@ -154,7 +171,7 @@ const PublicationsPage = ({ location, data }) => {
                             <StyledFolder>
                               {img ? (
                                 <img
-                                  src={require(`../../images/${img}.png`)}
+                                  src={images[img]}
                                   alt={img}
                                   width="200"
                                 />

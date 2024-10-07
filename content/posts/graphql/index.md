@@ -1,10 +1,10 @@
 ---
 title: About GraphQL
-description: How i realized the importance and how graphql is suer useful
+description: How I realized the importance and how graphql is super useful
 date: '2019-12-03'
 draft: false
-slug: 'publications/graphql'
-img: 'graphql'
+slug: 'publications/graphql1'
+img: 'graphql1'
 isDocumentExist: false
 tags:
   - GraphQL

@@ -99,7 +99,7 @@ const Footer = () => (
       <br />
       <br />
 
-      <StyledPostName>Hamza AFFANI 2021 | Software Engineer | PCIP™</StyledPostName>
+      <StyledPostName>HAMZA EL AFFANI 2024 | Payment Software Engineer | PCIP™</StyledPostName>
       <br />
       <StyledGitHubLink
         href="https://github.com/haffani/v4"

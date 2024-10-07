@@ -7,6 +7,23 @@ import { srConfig } from '@config';
 import styled from 'styled-components';
 import { theme, mixins, media, Section, Button, Heading } from '@styles';
 import kebabCase from 'lodash/kebabCase';
+import bazel from '../../images/bazel.png'
+import emv from '../../images/emv.png';
+import docker from '../../images/docker.png';
+import graphql1 from '../../images/graphql1.png';
+import rou7 from '../../images/rou7.png';
+import spring from '../../images/spring.png';
+import observable from '../../images/observable.png';
+
+const images = {
+  bazel,
+  emv,
+  docker,
+  spring,
+  rou7,
+  graphql1,
+  observable
+};
 const { colors, fontSizes, fonts } = theme;
 
 const StyledContainer = styled(Section)`
@@ -169,7 +186,7 @@ const Articles = ({ data }) => {
                         <Link to={slug}>
                           <StyledProjectHeader>
                             <StyledFolder>
-                              <img src={require(`../../images/${img}.png`)} alt={img} width="200" />
+                              <img  src={images[img]} alt={img} width="200" />
                             </StyledFolder>
                             <StyledProjectLinks></StyledProjectLinks>
                           </StyledProjectHeader>
