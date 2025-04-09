@@ -8,6 +8,7 @@ import styled from 'styled-components';
 import { theme, mixins, media, Section, Button, Heading } from '@styles';
 import kebabCase from 'lodash/kebabCase';
 import bazel from '../../images/bazel.png'
+import shorturi from '../../images/shorturi.png'
 import emv from '../../images/emv.png';
 import docker from '../../images/docker.png';
 import graphql1 from '../../images/graphql1.png';
@@ -17,6 +18,7 @@ import observable from '../../images/observable.png';
 
 const images = {
   bazel,
+  shorturi,
   emv,
   docker,
   spring,

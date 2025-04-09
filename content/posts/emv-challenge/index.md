@@ -1,6 +1,6 @@
 ---
-title: Analyse - protocole bi-authentification pour cartes EMV contactless
-description: Implémentation additionnelle aux protocoles dédiés à la communication entre le terminal de paiement et la carte EMV en mode contactless, pour éviter que la puce communique ses informations sensitives à des readers non-autorisés.
+title: Analyse protocole bi-auth. cartes EMV contactless
+description: Sécurisation du sans contact EMV contre les lectures non autorisées.
 date: '2021-6-01'
 isDocumentExist: false
 img: 'emv'

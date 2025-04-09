@@ -9,6 +9,7 @@ import styled from 'styled-components';
 import { theme, mixins, media, Main } from '@styles';
 const { colors, fontSizes, fonts } = theme;
 import bazel from '../../images/bazel.png'
+import shorturi from '../../images/shorturi.png'
 import emv from '../../images/emv.png';
 import docker from '../../images/docker.png';
 import graphql1 from '../../images/graphql1.png';
@@ -18,6 +19,7 @@ import observable from '../../images/observable.png';
 
 const images = {
   bazel,
+  shorturi,
   emv,
   docker,
   spring,
