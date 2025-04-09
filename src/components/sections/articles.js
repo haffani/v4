@@ -15,6 +15,7 @@ import graphql1 from '../../images/graphql1.png';
 import rou7 from '../../images/rou7.png';
 import spring from '../../images/spring.png';
 import observable from '../../images/observable.png';
+import { FormattedIcon } from '@components/icons';
 
 const images = {
   bazel,
@@ -117,7 +118,19 @@ const StyledFolder = styled.div`
     height: 40px;
   }
 `;
+
+const StyledIconLink = styled.a`
+  position: relative;
+  top: -10px;
+  padding: 10px;
+  svg {
+    width: 20px;
+    height: 20px;
+  }
+`;
 const StyledProjectLinks = styled.div`
+
+  gap: 5px; 
   margin-right: -10px;
   color: ${colors.lightSlate};
 `;
@@ -168,7 +181,7 @@ const Articles = ({ data }) => {
           {projectsToShow &&
             projectsToShow.map(({ node }, i) => {
               const { frontmatter } = node;
-              const { title, description, slug, date, tags, img } = frontmatter;
+              const { title, description, slug, date, draft, tags, img } = frontmatter;
               const d = new Date(date);
               return (
                 <CSSTransition
@@ -190,7 +203,27 @@ const Articles = ({ data }) => {
                             <StyledFolder>
                               <img  src={images[img]} alt={img} width="200" />
                             </StyledFolder>
-                            <StyledProjectLinks></StyledProjectLinks>
+                            <StyledProjectLinks>
+                            {img === "shorturi" && (
+                              <StyledIconLink
+                                href="https://github.com/haffani/url-shortener"
+                                target="_blank"
+                                rel="nofollow noopener noreferrer"
+                                aria-label="GitHub Link">
+                                <FormattedIcon name="GitHub" />
+                              </StyledIconLink>
+                            )}
+                            {img === "shorturi" &&(
+                              <StyledIconLink
+                                href="https://www.centralpay.com/"
+                                target="_blank"
+                                rel="nofollow noopener noreferrer"
+                                aria-label="External Link">
+                                <FormattedIcon name="External" />
+                              </StyledIconLink>
+                            )}
+
+                            </StyledProjectLinks>
                           </StyledProjectHeader>
                           <StyledProjectName>{title}</StyledProjectName>
                           <StyledProjectDescription>{description}</StyledProjectDescription>
